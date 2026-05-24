@@ -28,6 +28,10 @@ def learnaboutme():
 def projects():
     return render_template("myprojects.html")
 
+@app.route("/flexandgrid")
+def flexandgrid():
+    return render_template("flexandgrid.html")
+
 @app.route("/goal1")
 def goal1():
     return render_template("goal1.html")
