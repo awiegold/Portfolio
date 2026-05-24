@@ -24,15 +24,17 @@ def portfolio():
 def learnaboutme():
     return render_template("learnaboutme.html")
 
-# Flex and Grid page
-@app.route("/flexandgrid")
-def flexandgrid():
-    return render_template("flexandgrid.html")
+@app.route("/goal1")
+def goal1():
+    return render_template("goal1.html")
 
-# Projects page
-@app.route("/myprojects")
-def projects():
-    return render_template("myprojects.html")
+@app.route("/goal2")
+def goal2():
+    return render_template("goal2.html")
+
+@app.route("/goal3")
+def goal3():
+    return render_template("goal3.html")
 
 @app.route("/delete/<int:id>")
 def delete(id):
