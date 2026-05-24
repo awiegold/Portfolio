@@ -19,7 +19,7 @@
             <div>
                 <a class="nav-box" href="{{ url_for('learnaboutme') }}">About Me</a>
                 <a class="nav-box" href="{{ url_for('projects') }}">Projects</a>
-                <a class="nav-box" href="{{ url_for('flexandgrid') }}">Flex & Grid</a>
+                <a class="nav-box" href="{{ url_for('flexandgrid') }}">Goals</a>
                 <a class="nav-box" href="mailto:a.wiegold92@gmail.com">Contact</a>
             </div>
         </div>
@@ -30,7 +30,7 @@
 		<h1>Annette Wiegold's Portfolio</h1>
         <h2>Welcome to My Portfolio</h2>
 			<div>
-                <p class="introduction">Hello! My name is Annette Wiegold, I have just started my programming learning journey and I would like to show you more about who I am and what my skills are.</p>
+                <p class="introduction">Teaching is a journey, not a destination. Here you'll find a little snapshot of where I am right now, what drives me, and where I'm heading next.</p>
 
 
             <div>
@@ -38,7 +38,7 @@
                 <div class="img-text-box">
                     <img src="{{ url_for('static', filename='img/annette.jpg') }}" alt="Annette Wiegold" width="200" height="200">
                 
-                <p class="about_paragraph">I have only recently started programming and this is the first website I am building comletely from scratch. Before starting to design websites I have completed an introduction course to Python where I was introduced to the world of programming. I really enjoy the new insights I am gaining about creating websites and especially enjoy to explore the endless design possibilites.</p>
+                <p class="about_paragraph">Learn more about who I am.</p>
             </div>
             <a href="{{ url_for('learnaboutme') }}">About Me</a>
             <div>
@@ -46,47 +46,41 @@
                  <div class="img-text-box">
                     <img src="{{ url_for('static', filename='img/classroom.jpg') }}" alt="Classroom Picutre" width="200" height="200">
             
-                <p class="skills_paragraph">On this picture you can see my usual work environment, a classroom. As an early years teacher I normally teach young children on a daily basis but programming is becoming more and more important in the field of education and I am eager to help students learn more through and about programming even from a very young age.</p>
+                <p class="skills_paragraph">Learn more about my skills.</p>
             </div>
-            <a href="{{  url_for('projects')  }}">Learn more about my skills and projects</a>
+            <a href="{{  url_for('projects')  }}">About my skills</a>
 
             </div>
 
-                   <h2>My Projects</h2>
+                   <h2>My Goals</h2>
 
 <div class="row text-center">
 
     <div class="col-md-4 p-3">
         <div class="project-box image-hover">
-            <img src="{{ url_for('static', filename='img/computer.PNG') }}" alt="Computer" class="project-img normal">
+            <img src="{{ url_for('static', filename='img/1.JPG') }}" alt="Computer" class="project-img normal">
             <img src="{{ url_for('static', filename='img/check-it-out.png') }}" alt="Hover" class="project-img hover-img">
         </div>
-        <a href="{{  url_for('projects')  }}">Introduction to Python</a>
+        <a href="{{  url_for('projects')  }}">Goal 1</a>
     </div>
 
     <div class="col-md-4 p-3">
         <div class="project-box image-hover">
-            <img src="{{ url_for('static', filename='img/Pico.jpg') }}" alt="Pico" class="project-img normal">
+            <img src="{{ url_for('static', filename='img/2.JPG') }}" alt="Pico" class="project-img normal">
             <img src="{{ url_for('static', filename='img/check-it-out.png') }}" alt="Hover" class="project-img hover-img">
         </div>
-        <a href="{{ url_for('projects') }}">Pico Project</a>
+        <a href="{{ url_for('projects') }}">Goal 2</a>
     </div>
 
     <div class="col-md-4 p-3">
         <div class="project-box image-hover">
-            <img src="{{ url_for('static', filename='img/web.jpg') }}" alt="Webdesign" class="project-img normal">
+            <img src="{{ url_for('static', filename='img/3.JPG') }}" alt="Webdesign" class="project-img normal">
             <img src="{{ url_for('static', filename='img/check-it-out.png') }}" alt="Hover" class="project-img hover-img">
         </div>
-        <a href="{{ url_for('projects') }}">Webdesign</a>
+        <a href="{{ url_for('projects') }}">Goal 3</a>
     </div>
 
-    <div class="col-md-4 p-3">
-        <div class="project-box image-hover">
-            <img src="{{ url_for('static', filename='img/grid-vs-flexbox.png') }}" alt="Flex and Grid" class="project-img normal">
-            <img src="{{ url_for('static', filename='img/check-it-out.png') }}" alt="Hover" class="project-img hover-img">
-        </div>
-        <a href="{{ url_for('flexandgrid') }}">Learn more about other projects</a>
-    </div>
+
 
 </div>
 
@@ -124,7 +118,7 @@
 
             
             <footer class="text-center mt-5 p-3" style="background-color: #f0f0f0;">
-                © 2025 Annette Wiegold
+                © 2026 Annette Wiegold
             </footer>
 			
 	</body>
