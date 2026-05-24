@@ -24,6 +24,10 @@ def portfolio():
 def learnaboutme():
     return render_template("learnaboutme.html")
 
+@app.route("/myprojects")
+def projects():
+    return render_template("myprojects.html")
+
 @app.route("/goal1")
 def goal1():
     return render_template("goal1.html")
